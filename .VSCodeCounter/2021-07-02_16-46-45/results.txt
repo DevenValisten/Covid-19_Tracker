@@ -1,0 +1,109 @@
+Date : 2021-07-02 16:46:45
+Directory : d:\Projetcs\IT Projects\Flutter\covid_tracker
+Total : 44 files,  1859 codes, 237 comments, 215 blanks, all 2311 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         18 |      1,342 |        125 |        144 |      1,611 |
+| JSON       |          3 |        168 |          0 |          3 |        171 |
+| XML        |         11 |        132 |         51 |         13 |        196 |
+| Groovy     |          3 |         80 |          3 |         20 |        103 |
+| HTML       |          1 |         79 |         14 |          6 |         99 |
+| YAML       |          1 |         24 |         43 |         14 |         81 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Swift      |          1 |         12 |          0 |          2 |         14 |
+| Properties |          2 |          8 |          1 |          2 |         11 |
+| C++        |          1 |          1 |          0 |          1 |          2 |
+| HTTP       |          1 |          0 |          0 |          1 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |         44 |      1,859 |        237 |        215 |      2,311 |
+| android                                                                                                     |         12 |        153 |         53 |         31 |        237 |
+| android\app                                                                                                 |          8 |        112 |         52 |         20 |        184 |
+| android\app\src                                                                                             |          7 |         65 |         49 |          9 |        123 |
+| android\app\src\debug                                                                                       |          1 |          4 |          3 |          1 |          8 |
+| android\app\src\main                                                                                        |          5 |         57 |         43 |          7 |        107 |
+| android\app\src\main\res                                                                                    |          4 |         26 |         32 |          6 |         64 |
+| android\app\src\main\res\drawable                                                                           |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\drawable-v21                                                                       |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\values                                                                             |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\values-night                                                                       |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\profile                                                                                     |          1 |          4 |          3 |          1 |          8 |
+| android\gradle                                                                                              |          1 |          5 |          1 |          1 |          7 |
+| android\gradle\wrapper                                                                                      |          1 |          5 |          1 |          1 |          7 |
+| assets                                                                                                      |          2 |          6 |          0 |          2 |          8 |
+| assets\icons                                                                                                |          2 |          6 |          0 |          2 |          8 |
+| ios                                                                                                         |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner                                                                                                  |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner\Assets.xcassets                                                                                  |          3 |        148 |          0 |          4 |        152 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                               |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                             |          2 |         26 |          0 |          3 |         29 |
+| ios\Runner\Base.lproj                                                                                       |          2 |         61 |          2 |          2 |         65 |
+| lib                                                                                                         |         17 |      1,328 |        115 |        137 |      1,580 |
+| lib\screens                                                                                                 |          8 |        776 |         62 |         59 |        897 |
+| lib\screens\home                                                                                            |          7 |        695 |         53 |         53 |        801 |
+| lib\screens\home\components                                                                                 |          6 |        627 |         41 |         44 |        712 |
+| lib\theme                                                                                                   |          2 |         66 |         12 |         14 |         92 |
+| lib\utilities                                                                                               |          1 |        100 |          0 |         14 |        114 |
+| lib\widgets                                                                                                 |          4 |        318 |         36 |         37 |        391 |
+| rest_api                                                                                                    |          1 |          0 |          0 |          1 |          1 |
+| test                                                                                                        |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                         |          2 |        102 |         14 |          7 |        123 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                    | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\README.md                                                     | Markdown   |         10 |          0 |          7 |         17 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\build.gradle                                      | Groovy     |         47 |          3 |         11 |         61 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\debug\AndroidManifest.xml                     | XML        |          4 |          3 |          1 |          8 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\main\AndroidManifest.xml                      | XML        |         31 |         11 |          1 |         43 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\main\res\drawable-v21\launch_background.xml   | XML        |          4 |          7 |          2 |         13 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\main\res\drawable\launch_background.xml       | XML        |          4 |          7 |          2 |         13 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\main\res\values-night\styles.xml              | XML        |          9 |          9 |          1 |         19 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\main\res\values\styles.xml                    | XML        |          9 |          9 |          1 |         19 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\app\src\profile\AndroidManifest.xml                   | XML        |          4 |          3 |          1 |          8 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\build.gradle                                          | Groovy     |         25 |          0 |          5 |         30 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\gradle.properties                                     | Properties |          3 |          0 |          1 |          4 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\gradle\wrapper\gradle-wrapper.properties              | Properties |          5 |          1 |          1 |          7 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\android\settings.gradle                                       | Groovy     |          8 |          0 |          4 |         12 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\assets\icons\Drcorona.svg                                     | XML        |          3 |          0 |          1 |          4 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\assets\icons\coronadr.svg                                     | XML        |          3 |          0 |          1 |          4 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\AppDelegate.swift                                  | Swift      |         12 |          0 |          2 |         14 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json   | JSON       |        122 |          0 |          1 |        123 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json | JSON       |         23 |          0 |          1 |         24 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md     | Markdown   |          3 |          0 |          2 |          5 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Base.lproj\LaunchScreen.storyboard                 | XML        |         36 |          1 |          1 |         38 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Base.lproj\Main.storyboard                         | XML        |         25 |          1 |          1 |         27 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\ios\Runner\Runner-Bridging-Header.h                           | C++        |          1 |          0 |          1 |          2 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\constant.dart                                             | Dart       |         33 |          5 |          9 |         47 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\main.dart                                                 | Dart       |         35 |          0 |          4 |         39 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\country_update.dart               | Dart       |        178 |         12 |         18 |        208 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\header.dart                       | Dart       |         84 |          4 |          5 |         93 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\learn_more.dart                   | Dart       |         83 |         12 |          5 |        100 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\prevention.dart                   | Dart       |        119 |         12 |          6 |        137 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\self_test.dart                    | Dart       |         41 |          0 |          2 |         43 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\components\symtomps_contact.dart             | Dart       |        122 |          1 |          8 |        131 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\home\home_screen.dart                             | Dart       |         68 |         12 |          9 |         89 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\screens\navigation_drawer.dart                            | Dart       |         81 |          9 |          6 |         96 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\theme\my_theme.dart                                       | Dart       |         24 |         12 |          5 |         41 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\theme\theme.dart                                          | Dart       |         42 |          0 |          9 |         51 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\utilities\NumberDisplay.dart                              | Dart       |        100 |          0 |         14 |        114 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\widgets\ALL.dart                                          | Dart       |          6 |          0 |          1 |          7 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\widgets\custom_app_bar.dart                               | Dart       |         74 |          2 |         11 |         87 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\widgets\global_update.dart                                | Dart       |        186 |         27 |         20 |        233 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\lib\widgets\reusable_card.dart                                | Dart       |         52 |          7 |          5 |         64 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\pubspec.yaml                                                  | YAML       |         24 |         43 |         14 |         81 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\rest_api\ncov_2019_api.http                                   | HTTP       |          0 |          0 |          1 |          1 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\test\widget_test.dart                                         | Dart       |         14 |         10 |          7 |         31 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\web\index.html                                                | HTML       |         79 |         14 |          6 |         99 |
+| d:\Projetcs\IT Projects\Flutter\covid_tracker\web\manifest.json                                             | JSON       |         23 |          0 |          1 |         24 |
+| Total                                                                                                       |            |      1,859 |        237 |        215 |      2,311 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
