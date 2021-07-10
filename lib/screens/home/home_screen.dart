@@ -1,11 +1,12 @@
-import 'package:covid_tracker/constant.dart';
 import 'package:covid_tracker/screens/home/components/self_test.dart';
-import 'package:covid_tracker/widgets/ALL.dart';
 import 'package:covid_tracker/widgets/custom_app_bar.dart';
 import 'package:covid_tracker/screens/navigation_drawer.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-
+import 'components/country_update.dart';
+import 'components/global_update.dart';
+import 'components/header.dart';
+import 'components/learn_more.dart';
+import 'components/prevention.dart';
 import 'components/symtomps_contact.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -44,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      drawer: NavigationDrawer(),
+      // drawer: NavigationDrawer(),
       extendBodyBehindAppBar: true,
       appBar: PreferredSize(
         preferredSize: Size(screenSize.width, 40.0),

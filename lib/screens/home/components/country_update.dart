@@ -59,7 +59,7 @@ class _CountryUpdateState extends State<CountryUpdate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding, vertical: 15),
+      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding * 0.75, vertical: 15),
       padding: EdgeInsets.symmetric(horizontal: kDefaultPadding / 2),
       width: double.infinity,
       decoration: BoxDecoration(
@@ -186,16 +186,18 @@ class _CountryCardTitle extends StatelessWidget {
         SizedBox(width: 20),
         Expanded(
           child: DropdownButton(
-            focusColor: Colors.grey[700],
-            dropdownColor: Colors.grey[800],
+            dropdownColor: Theme.of(context).cardColor,
             isExpanded: true,
             underline: SizedBox(),
             value: 'Indonesia',
-            items: ['Indonesia', 'Bangladesh', 'United States']
+            items: ['Indonesia', 'Coming Soon...', 'Coming Soon...']
                 .map<DropdownMenuItem<String>>((String value) {
               return DropdownMenuItem<String>(
                 value: value,
-                child: Text(value),
+                child: Text(
+                  value,
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.white),
+                ),
               );
             }).toList(),
             onChanged: (value) {},

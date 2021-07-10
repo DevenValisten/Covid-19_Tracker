@@ -5,7 +5,7 @@ class SelfTest extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding, vertical: 15),
+      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding * 0.75, vertical: 15),
       padding: EdgeInsets.all(kDefaultPadding / 2),
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,

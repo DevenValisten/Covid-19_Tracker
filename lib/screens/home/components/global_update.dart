@@ -5,7 +5,7 @@ import 'package:covid_tracker/widgets/reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import '../constant.dart';
+import '../../../constant.dart';
 
 class GlobalUpdate extends StatefulWidget {
   const GlobalUpdate({
@@ -65,7 +65,7 @@ class _GlobalUpdateState extends State<GlobalUpdate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding, vertical: 15),
+      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding * .75, vertical: 15),
       decoration: BoxDecoration(
         // color: Theme.of(context).cardColor,
         borderRadius: BorderRadius.circular(10),

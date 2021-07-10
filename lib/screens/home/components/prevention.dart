@@ -9,7 +9,7 @@ class Prevention extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding, vertical: 15),
+      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding * 0.75, vertical: 15),
       width: double.infinity,
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
@@ -121,10 +121,9 @@ class _PreventCard extends StatelessWidget {
                         text,
                         maxLines: 8,
                         overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          height: 1.3,
-                          fontSize: 13,
-                        ),
+                        style: Theme.of(context).textTheme.bodyText2!.copyWith(
+                              fontSize: 13,
+                            ),
                       ),
                     ),
                     // Align(

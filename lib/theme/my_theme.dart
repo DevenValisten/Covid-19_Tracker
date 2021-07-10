@@ -7,12 +7,19 @@ class MyTheme {
     scaffoldBackgroundColor: kLightScaffoldColor,
     cardColor: Colors.white,
     canvasColor: Colors.transparent,
-    // textTheme: TextTheme(
-    //   bodyText2: TextStyle(
-    //     color: Color(0xff202020),
-    //     fontSize: 15,
-    //   ),
-    // ),
+    textTheme: TextTheme(
+      bodyText1: TextStyle(
+        fontWeight: FontWeight.w500,
+        fontSize: 16,
+        color: Colors.black,
+      ),
+      headline5: TextStyle(
+        color: Colors.black,
+      ),
+      bodyText2: TextStyle(
+        color: Colors.grey[800],
+      ),
+    ),
   );
 
   ThemeData darkTheme = ThemeData.dark().copyWith(
@@ -27,6 +34,9 @@ class MyTheme {
       ),
       bodyText2: TextStyle(
         color: Color(0xffD9D9D9),
+      ),
+      headline5: TextStyle(
+        color: Color(0xffE6AD00),
       ),
     ),
     // textTheme: TextTheme(

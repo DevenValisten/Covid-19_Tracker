@@ -11,7 +11,7 @@ class LearnMore extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding, vertical: 15),
+      margin: EdgeInsets.symmetric(horizontal: kDefaultPadding * 0.75, vertical: 15),
       height: 150,
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
@@ -31,9 +31,10 @@ class LearnMore extends StatelessWidget {
         children: [
           Expanded(
             child: Container(
-              padding: EdgeInsets.only(top: 18),
+              // padding: EdgeInsets.only(top: 18),
+              padding: EdgeInsets.all(kDefaultPadding / 2),
               child: Image.asset(
-                kDoctorStandImage,
+                'assets/images/woman_nurse.png',
                 fit: BoxFit.contain,
                 alignment: Alignment.bottomCenter,
               ),
@@ -55,11 +56,7 @@ class LearnMore extends StatelessWidget {
                 ),
                 Text(
                   '#StayHome',
-                  style: TextStyle(
-                    fontWeight: FontWeight.w500,
-                    fontSize: 16,
-                    color: Colors.yellow,
-                  ),
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 17),
                 ),
                 SizedBox(height: 15),
                 GestureDetector(

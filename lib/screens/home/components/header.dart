@@ -42,9 +42,9 @@ class Header extends StatelessWidget {
               child: Stack(
                 children: [
                   Positioned(
-                    left: 30,
+                    left: 10,
                     child: Image.asset(
-                      kDoctorSitImage,
+                      'assets/images/man_doctor.png',
                       width: 180,
                       fit: BoxFit.fitWidth,
                       alignment: Alignment.topCenter,

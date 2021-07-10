@@ -48,45 +48,45 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
                 ),
               ],
             ),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-              child: Row(
-                children: [
-                  // Text('Dark Mode'),
-                  // Switch.adaptive(
-                  //   value: _value,
-                  //   onChanged: (value) {
-                  //     setState(() {
-                  //       _value = !_value;
-                  //     });
-                  //   },
-                  // ),
+            // Container(
+            //   margin: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+            //   child: Row(
+            //     children: [
+            //       // Text('Dark Mode'),
+            //       // Switch.adaptive(
+            //       //   value: _value,
+            //       //   onChanged: (value) {
+            //       //     setState(() {
+            //       //       _value = !_value;
+            //       //     });
+            //       //   },
+            //       // ),
 
-                  GestureDetector(
-                    onTap: () {
-                      ThemeProvider provider = Provider.of<ThemeProvider>(context, listen: false);
-                      provider.setLightTheme();
-                    },
-                    child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-                      color: Colors.blue,
-                      child: Text('Light Mode'),
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: () {
-                      ThemeProvider provider = Provider.of<ThemeProvider>(context, listen: false);
-                      provider.setDarkTheme();
-                    },
-                    child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-                      color: Colors.grey[800],
-                      child: Text('Dark Mode'),
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            //       GestureDetector(
+            //         onTap: () {
+            //           ThemeProvider provider = Provider.of<ThemeProvider>(context, listen: false);
+            //           provider.setLightTheme();
+            //         },
+            //         child: Container(
+            //           padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+            //           color: Colors.blue,
+            //           child: Text('Light Mode'),
+            //         ),
+            //       ),
+            //       GestureDetector(
+            //         onTap: () {
+            //           ThemeProvider provider = Provider.of<ThemeProvider>(context, listen: false);
+            //           provider.setDarkTheme();
+            //         },
+            //         child: Container(
+            //           padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+            //           color: Colors.grey[800],
+            //           child: Text('Dark Mode'),
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
           ],
         ),
       ),
