@@ -63,7 +63,6 @@ class SymtompsContact extends StatelessWidget {
                   launch("tel:119");
                 },
               ),
-              SizedBox(width: 10),
               _ContactButton(
                 title: 'Kirim SMS',
                 icon: Icons.message,
@@ -102,7 +101,7 @@ class _ContactButton extends StatelessWidget {
         width: 135,
         height: 40,
         padding: EdgeInsets.symmetric(
-          horizontal: kDefaultPadding / 1.5,
+          horizontal: kDefaultPadding / 1.2,
           vertical: kDefaultPadding / 2,
         ),
         decoration: BoxDecoration(

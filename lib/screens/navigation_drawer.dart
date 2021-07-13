@@ -23,7 +23,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
     }
 
     return Container(
-      padding: EdgeInsets.only(top: 50),
+      padding: EdgeInsets.symmetric(vertical: 50, horizontal: 25),
       width: MediaQuery.of(context).size.width * 0.72,
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
@@ -34,9 +34,10 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
       ),
       child: Material(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text('Dark Mode'),
                 Checkbox(
@@ -48,6 +49,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
                 ),
               ],
             ),
+
             // Container(
             //   margin: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             //   child: Row(

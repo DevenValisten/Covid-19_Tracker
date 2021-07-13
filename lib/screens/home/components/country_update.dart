@@ -1,9 +1,12 @@
 import 'dart:convert';
 
+import 'package:covid_tracker/theme/my_theme.dart';
+import 'package:covid_tracker/theme/theme.dart';
 import 'package:covid_tracker/utilities/NumberDisplay.dart';
 import 'package:flutter/material.dart';
 import 'package:covid_tracker/constant.dart';
 import 'package:http/http.dart' as http;
+import 'package:provider/provider.dart';
 
 class CountryUpdate extends StatefulWidget {
   const CountryUpdate({
@@ -180,6 +183,7 @@ class _CountryCardTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final provider = Provider.of<ThemeProvider>(context);
     return Row(
       children: [
         Icon(Icons.flag),
@@ -196,7 +200,9 @@ class _CountryCardTitle extends StatelessWidget {
                 value: value,
                 child: Text(
                   value,
-                  style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.white),
+                  style: provider.getTheme == MyTheme().darkTheme
+                      ? Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.white)
+                      : Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.black),
                 ),
               );
             }).toList(),

@@ -208,24 +208,24 @@ class _GlobalUpdateTitle extends StatelessWidget {
             fontWeight: FontWeight.w600,
           ),
         ),
-        GestureDetector(
-          onTap: () {
-            // setState(() {
-            //   confirmed = 0;
-            //   recovered = 0;
-            //   deaths = 0;
-            //   fetchData();
-            // });
-          },
-          child: Text(
-            'Refresh',
-            style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-              color: Colors.blue,
-            ),
-          ),
-        ),
+        // GestureDetector(
+        //   onTap: () {
+        //     // setState(() {
+        //     //   confirmed = 0;
+        //     //   recovered = 0;
+        //     //   deaths = 0;
+        //     //   fetchData();
+        //     // });
+        //   },
+        //   child: Text(
+        //     'Refresh',
+        //     style: TextStyle(
+        //       fontSize: 14,
+        //       fontWeight: FontWeight.w600,
+        //       color: Colors.blue,
+        //     ),
+        //   ),
+        // ),
       ],
     );
   }

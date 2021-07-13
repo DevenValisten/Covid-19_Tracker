@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      // drawer: NavigationDrawer(),
+      drawer: NavigationDrawer(),
       extendBodyBehindAppBar: true,
       appBar: PreferredSize(
         preferredSize: Size(screenSize.width, 40.0),
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
               CountryUpdate(),
               Prevention(),
               SymtompsContact(),
-              SelfTest(),
+              // SelfTest(),
               LearnMore(),
               SizedBox(height: 20),
             ],

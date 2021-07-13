@@ -20,7 +20,7 @@ class Header extends StatelessWidget {
       clipper: _MyClipper(),
       child: Container(
         padding: EdgeInsets.only(left: 0, top: 100),
-        height: 350,
+        height: 300,
         width: double.infinity,
         decoration: BoxDecoration(
           color: Colors.blue,
@@ -43,9 +43,10 @@ class Header extends StatelessWidget {
                 children: [
                   Positioned(
                     left: 10,
+                    top: 0,
                     child: Image.asset(
                       'assets/images/man_doctor.png',
-                      width: 180,
+                      width: 150,
                       fit: BoxFit.fitWidth,
                       alignment: Alignment.topCenter,
                     ),

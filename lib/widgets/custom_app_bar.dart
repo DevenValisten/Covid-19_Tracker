@@ -31,12 +31,12 @@ class CustomAppBar extends StatelessWidget {
       // padding: EdgeInsets.symmetric(vertical: 10),
       backgroundColor: _endColor.withOpacity((scrollOffset / 180).clamp(0, 1).toDouble()),
       elevation: 0,
-      // leading: InkWell(
-      //   child: Icon(Icons.sort, color: scrollOffset < 100 ? Colors.white : navColor),
-      //   onTap: () {
-      //     Scaffold.of(context).openDrawer();
-      //   },
-      // ),
+      leading: InkWell(
+        child: Icon(Icons.sort, color: scrollOffset < 100 ? Colors.white : navColor),
+        onTap: () {
+          Scaffold.of(context).openDrawer();
+        },
+      ),
 
       title: _AppBarButton(
         title: 'Covid-19 Tracker',
@@ -44,25 +44,25 @@ class CustomAppBar extends StatelessWidget {
         onTap: () {},
       ),
       centerTitle: true,
-      actions: [
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: kDefaultPadding / 3),
-          child: IconButton(
-            onPressed: () {
-              provider.toogleTheme();
-            },
-            icon: provider.getTheme == MyTheme().lightTheme
-                ? Icon(
-                    Icons.dark_mode,
-                    color: scrollOffset < 100 ? Colors.white : navColor,
-                  )
-                : Icon(
-                    Icons.light_mode,
-                    color: scrollOffset < 100 ? Colors.white : navColor,
-                  ),
-          ),
-        ),
-      ],
+      // actions: [
+      //   Padding(
+      //     padding: EdgeInsets.symmetric(horizontal: kDefaultPadding / 3),
+      //     child: IconButton(
+      //       onPressed: () {
+      //         provider.toogleTheme();
+      //       },
+      //       icon: provider.getTheme == MyTheme().lightTheme
+      //           ? Icon(
+      //               Icons.dark_mode,
+      //               color: scrollOffset < 100 ? Colors.white : navColor,
+      //             )
+      //           : Icon(
+      //               Icons.light_mode,
+      //               color: scrollOffset < 100 ? Colors.white : navColor,
+      //             ),
+      //     ),
+      //   ),
+      // ],
     );
   }
 }

@@ -24,7 +24,7 @@ class MyTheme {
 
   ThemeData darkTheme = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: Colors.black,
-    cardColor: Color(0xff202020),
+    cardColor: Color(0xff222222),
     canvasColor: Colors.transparent,
     textTheme: TextTheme(
       bodyText1: TextStyle(
