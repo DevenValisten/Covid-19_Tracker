@@ -55,7 +55,7 @@ class LearnMore extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '#StayHome',
+                  '#StayAtHome',
                   style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 17),
                 ),
                 SizedBox(height: 15),

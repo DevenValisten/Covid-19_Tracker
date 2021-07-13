@@ -30,6 +30,7 @@
 .pub-cache/
 .pub/
 /build/
+/raw_assets/
 /custom_license.text
 
 # Web related

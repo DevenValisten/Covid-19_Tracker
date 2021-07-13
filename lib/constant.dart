@@ -39,7 +39,19 @@ const String kWearMaskText =
 const String kWashHandText =
     'Mencuci tangan selalu menjadi salah satu cara paling efektif untuk mencegah penyakit. Ini adalah tindakan sederhana untuk menjaga diri kita tetap sehat dan aman.';
 const String kPhysicalDistancingText =
-    'Menjaga jarak fisik membantu membatasi penyebaran COVID-19 – menjaga jarak setidaknya 1m dari satu sama lain dan menghindari menghabiskan waktu di tempat ramai.';
+    'Menjaga jarak fisik membantu membatasi penyebaran COVID-19 – menjaga jarak12`1p; satu sama lain dan menghindari menghabiskan waktu di tempat ramai.';
+
+const String kCoughText =
+    'Berbeda dari flu biasa, batuk yang menjadi gejala covid adalah batuk kering secara terus menerus atau batuk kering yang tidak berdahak.';
+
+const String kFeverText =
+    'Demam biasanya muncul pada orang yang terinfeksi Covid-19, dengan suhu lebih dari 37,7 derajat celcius. Paling umum, suhu tubuh naik pada sore hari menjelang petang, karena ini merupakan cara virus menghasilkan demam.';
+
+const String kFatigueText =
+    'Kelelahan ekstrem dapat menjadi tanda seseorang terpapar corona. Ini menjadi pertanda imun merespons adanya infeksi, sehingga tubuh terasa lelah. Namun, lelah akibat Covid-19 biasanya disertai gejala lain seperti nyeri otot.';
+
+const String kHeadacheText =
+    'Biasanya sakit kepala berlangsung tidak lebih dari 72 jam, sedangkan lebih dari 10 % pasien Covid-19 merasakan sakit kepala lebih dari 72 jam, oleh sebab itu, orang-orang yang mengalami sakit kepala dengan durasi lebih dari 48-72 jam harus segera memeriksakan diri.';
 
 // API
 const String kGlobalAPI = 'https://covid19.mathdro.id/api';

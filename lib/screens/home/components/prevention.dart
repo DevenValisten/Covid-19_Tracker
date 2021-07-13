@@ -32,18 +32,18 @@ class Prevention extends StatelessWidget {
           _PreventCard(
             title: 'Menggunakan Masker',
             text: kWearMaskText,
-            image: kWearMaskImage,
+            image: 'assets/illustration/wear_mask.png',
             imagePaddingTop: 0,
           ),
           _PreventCard(
             title: 'Mencuci Tangan',
             text: kWashHandText,
-            image: kWashHandsImage,
+            image: 'assets/illustration/wash_hands.png',
           ),
           _PreventCard(
             title: 'Menjaga Jarak',
             text: kPhysicalDistancingText,
-            image: kPhysicalDistancingkImage,
+            image: 'assets/illustration/distance.png',
           ),
         ],
       ),
@@ -70,7 +70,7 @@ class _PreventCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 0),
       child: SizedBox(
-        height: 160,
+        height: 140,
         child: Stack(
           alignment: Alignment.centerLeft,
           children: <Widget>[

@@ -19,6 +19,10 @@ class MyTheme {
       bodyText2: TextStyle(
         color: Colors.grey[800],
       ),
+      button: TextStyle(
+        color: Colors.black,
+        fontSize: 16,
+      ),
     ),
   );
 
@@ -38,13 +42,10 @@ class MyTheme {
       headline5: TextStyle(
         color: Color(0xffE6AD00),
       ),
+      button: TextStyle(
+        color: Colors.white,
+        fontSize: 16,
+      ),
     ),
-    // textTheme: TextTheme(
-
-    //   bodyText2: TextStyle(
-    //     color: Color(0xffD6D6D6),
-    //     fontSize: 15,
-    //   ),
-    // ),
   );
 }

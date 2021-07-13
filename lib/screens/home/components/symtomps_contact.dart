@@ -3,8 +3,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../constant.dart';
 
-class SymtompsContact extends StatelessWidget {
-  const SymtompsContact({
+class SymptomsContact extends StatelessWidget {
+  const SymptomsContact({
     Key? key,
   }) : super(key: key);
 
@@ -60,7 +60,7 @@ class SymtompsContact extends StatelessWidget {
                 icon: Icons.call,
                 color: Color(0xff00E617),
                 onTap: () {
-                  launch("tel:119");
+                  launch("tel:112");
                 },
               ),
               _ContactButton(
@@ -68,7 +68,7 @@ class SymtompsContact extends StatelessWidget {
                 icon: Icons.message,
                 color: Color(0xff26A1FF),
                 onTap: () {
-                  launch("sms:119");
+                  launch("sms:112");
                 },
               ),
             ],

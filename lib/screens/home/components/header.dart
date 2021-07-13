@@ -19,7 +19,7 @@ class Header extends StatelessWidget {
     return ClipPath(
       clipper: _MyClipper(),
       child: Container(
-        padding: EdgeInsets.only(left: 0, top: 100),
+        padding: EdgeInsets.only(left: 0, top: 80),
         height: 300,
         width: double.infinity,
         decoration: BoxDecoration(
@@ -42,7 +42,7 @@ class Header extends StatelessWidget {
               child: Stack(
                 children: [
                   Positioned(
-                    left: 10,
+                    left: 20,
                     top: 0,
                     child: Image.asset(
                       'assets/images/man_doctor.png',

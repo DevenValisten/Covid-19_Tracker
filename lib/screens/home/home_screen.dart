@@ -1,3 +1,4 @@
+import 'package:covid_tracker/screens/home/components/Symptomps.dart';
 import 'package:covid_tracker/screens/home/components/self_test.dart';
 import 'package:covid_tracker/widgets/custom_app_bar.dart';
 import 'package:covid_tracker/screens/navigation_drawer.dart';
@@ -63,7 +64,8 @@ class _HomeScreenState extends State<HomeScreen> {
               GlobalUpdate(),
               CountryUpdate(),
               Prevention(),
-              SymtompsContact(),
+              Symptoms(),
+              SymptomsContact(),
               // SelfTest(),
               LearnMore(),
               SizedBox(height: 20),
