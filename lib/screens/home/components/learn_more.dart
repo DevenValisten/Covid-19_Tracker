@@ -16,15 +16,9 @@ class LearnMore extends StatelessWidget {
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
         borderRadius: BorderRadius.circular(12),
-        image: DecorationImage(
-          image: AssetImage('assets/images/virus.png'),
-        ),
-        // boxShadow: [
-        //   BoxShadow(
-        //     color: Colors.grey.withOpacity(0.3),
-        //     blurRadius: 5,
-        //   ),
-        // ],
+        // image: DecorationImage(
+        //   image: AssetImage('assets/images/virus.png'),
+        // ),
       ),
       child: Row(
         // mainAxisAlignment: MainAxisAlignment.center,
@@ -59,7 +53,7 @@ class LearnMore extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 17),
                 ),
                 SizedBox(height: 15),
-                GestureDetector(
+                InkWell(
                   onTap: _launchURL,
                   child: Container(
                     padding: EdgeInsets.fromLTRB(10, 10, 10, 10),

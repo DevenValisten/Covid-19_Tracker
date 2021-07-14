@@ -25,14 +25,20 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  url_launcher: ^6.0.6  # For Opening Read More and contact
-  http: ^0.13.3   # For Opening API
+  url_launcher: ^6.0.6  
+  http: ^0.13.3   
   provider: ^5.0.0
   shared_preferences: ^2.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.jpg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

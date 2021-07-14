@@ -68,10 +68,10 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
             //   },
             // ),
 
-            _DrawerButton(
-              text: 'Rate Aplikasi ini',
-              onTap: () {},
-            ),
+            // _DrawerButton(
+            //   text: 'Rate Aplikasi ini',
+            //   onTap: () {},
+            // ),
           ],
         ),
       ),

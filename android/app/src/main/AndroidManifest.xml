@@ -2,7 +2,7 @@
     package="com.example.covid_tracker">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="covid_tracker"
+        android:label="Pantau COVID-19"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
